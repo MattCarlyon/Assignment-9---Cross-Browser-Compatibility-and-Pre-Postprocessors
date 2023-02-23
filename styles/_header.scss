@@ -1,0 +1,35 @@
+
+.header {
+    min-width: 1109px;
+    min-height: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 19.34px;
+    width: 90.13px;
+    display: flex;
+}
+
+.links {
+    height: 23px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.navtext {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    letter-spacing: -0.346154px;
+    justify-content: space-around;
+    margin-left: 29px;
+    text-decoration: none;
+    color: black;
+}
