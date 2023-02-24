@@ -1,0 +1,85 @@
+@import 'header';
+
+@import 'fonts';
+
+.text-top {
+    max-width: 1109px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: top;
+    justify-content: space-between;
+}
+
+.text-top-left {
+    max-width: 635px;
+    width: 100%;
+    max-height: 500px;
+}
+
+.pd-title {
+    max-width: 495px;
+    width: 100%;
+    height: 103px;
+}
+
+.text-top-right {
+    max-width: 343px;
+    width: 100%;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text-top-right1 {
+    display: flex;
+    flex-direction: row;
+    height: 42px;
+    width: 355px;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px black;
+}
+
+.pd-font-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.main-photo {
+    margin-top: 61px;
+}
+
+
+.pd-img {
+    max-width: 1110px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.pd-text {
+    display: flex;
+    max-width: 1110px;
+    width:100%;
+    max-height: 93px;
+    color: #111111;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+
+@import 'footer';

@@ -1,0 +1,78 @@
+
+
+
+.grid__container {
+    display: grid;
+    max-width: 1110px;
+    width: 100%;
+    height: 1960px;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1f);
+    grid-template-rows: repeat(32, 1f);
+    margin-top: 91px;
+}
+
+.grid__element {
+    overflow: hidden;
+    position: relative;
+}
+
+.first {
+    grid-row:1 / 8;
+    grid-column:1 / 4;
+}
+
+.second {
+    grid-row:8 / 16;
+    grid-column:1 / 4;
+}
+
+.third {
+    grid-row:16 / 24;
+    grid-column:1 / 4;
+}
+
+.fourth {
+    grid-row:24 / 33;
+    grid-column:1 / 4;
+}
+
+.fifth {
+    grid-row:1 / 7;
+    grid-column:4 / 7;
+}
+
+.sixth {
+    grid-row:7 / 14;
+    grid-column:4 / 7;
+}
+
+.seventh {
+    grid-row:14 / 23;
+    grid-column:4 / 7;
+}
+
+.eighth {
+    grid-row:23 / 33;
+    grid-column:4 / 7;
+}
+
+.ninth {
+    grid-row:1 / 11;
+    grid-column:7 / 10;
+}
+
+.tenth {
+    grid-row:11 / 18;
+    grid-column:7 / 10;
+}
+
+.eleventh {
+    grid-row:18 / 27;
+    grid-column:7 / 10;
+}
+
+.twelfth {
+    grid-row:27 / 33;
+    grid-column:7 / 10;
+}
