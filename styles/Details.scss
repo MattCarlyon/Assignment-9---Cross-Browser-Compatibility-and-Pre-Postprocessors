@@ -1,3 +1,5 @@
+@import 'body';
+
 @import 'header';
 
 @import 'fonts';
@@ -30,8 +32,8 @@
     max-height: 500px;
     display: flex;
     flex-direction: column;
-
 }
+
 
 .text-top-right1 {
     display: flex;
@@ -39,15 +41,16 @@
     height: 42px;
     width: 355px;
     width: 100%;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 5px black;
+    justify-content: space-between;
+    border-top: none white;
+    border-left: none white;
+    border-right: none white;
+    border-bottom: 1px solid #979797;
+    border-style: solid;
 }
 
 .pd-font-2 {
     display: flex;
-    justify-content: center;
 }
 
 .main-photo {
@@ -71,14 +74,6 @@
     color: #111111;
     margin-top: 45px;
     margin-bottom: 45px;
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: #111111;
-    mix-blend-mode: normal;
-    opacity: 0.8;
 }
 
 

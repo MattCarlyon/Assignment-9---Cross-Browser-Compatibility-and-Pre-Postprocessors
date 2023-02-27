@@ -1,10 +1,4 @@
-body {
-    max-width: 1360px;
-    width: 100%;
-    max-height: 3840px;
-    display: flex;
-    flex-direction: column;
-}
+@import 'body';
 
 @import 'fonts';
 
@@ -26,7 +20,6 @@ body {
     max-height: 251px;
     display: flex;
     flex-wrap: wrap;
-    background-color: aquamarine;
 }
 
 .title-right {
@@ -57,6 +50,60 @@ body {
     max-height: 106px;
     list-style-type: none;
     margin-top: 0px;
+}
+
+.awards {
+    display: flex;
+    flex-direction: column;
+    max-width: 1110px;
+    width: 100%;
+    height: 823px;
+    margin-bottom: 100px;
+    border-bottom: 2px #D8D8D8;
+}
+
+.box-1 {
+    display: flex;
+    flex-direction: row;
+    max-width: 1110px;
+    width: 100%;
+    height: 411.5px;
+    justify-content: space-between;
+    border-style: solid;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: #D8D8D8;
+    padding-top: 50px;
+}
+
+.box-2 {
+    display: flex;
+    flex-direction: row;
+    max-width: 1110px;
+    width: 100%;
+    height: 411.5px;
+    justify-content: space-between;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-bottom: 5px;
+    border-left: none; 
+    border-color: #D8D8D8;
+    padding-top: 50px;
+}
+
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    width: 635px;
+}
+
+.genesis-text {
+    width: 190px;
+    height: 110px;
 }
 
 @import 'footer';

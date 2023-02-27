@@ -31,9 +31,6 @@ h3 {
     margin-top: 0px;
 }
 
-h4 {
-
-}
 
 .stars {
     font-family: 'Mulish';
@@ -72,7 +69,7 @@ h4 {
     margin-top: 0px;
 }
 
-.pd-text1 {
+.pd-text {
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
@@ -81,4 +78,64 @@ h4 {
     color: #111111;
     mix-blend-mode: normal;
     opacity: 0.8;
+    margin-top: 30px;
+}
+
+.pd-font-1 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    justify-self: start;
+}
+
+.pd-font-2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+}
+
+.awards-text1 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #111111;
+}
+
+.box1-font1 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+}
+
+.box1-font2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #111111;
+}
+
+.box1-font3 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
 }
