@@ -12,20 +12,19 @@
     max-height: 251px;
     margin-top: 31px;
     margin-bottom: 100px;
-}
+    &__left {
+        max-width: 635px;
+        width: 100%;
+        max-height: 251px;
+        display: flex;
+        flex-wrap: wrap;
+    }   
 
-.title-left {
-    max-width: 635px;
-    width: 100%;
-    max-height: 251px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.title-right {
-    align-self: self-end; 
-    margin-right: 73px;
-    margin-bottom: 23px;
+    &__right {
+        align-self: self-end; 
+        margin-right: 73px;
+        margin-bottom: 23px;
+    }
 }
 
 @import 'picture-grid';
